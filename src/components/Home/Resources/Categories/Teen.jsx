@@ -11,7 +11,7 @@ const allVideos = Array.from({ length: 24 }, (_, i) => ({
 
 const VIDEOS_PER_PAGE = 8;
 
-export default function Ten() {
+export default function Teen() {
   const [currentPage, setCurrentPage] = useState(1);
   const [playingVideoId, setPlayingVideoId] = useState(null);
 
