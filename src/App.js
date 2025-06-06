@@ -9,6 +9,7 @@ import Tranding from './components/Home/Resources/Categories/Tranding';
 import HdVideos from './components/Home/Resources/Categories/Hd-Videos';
 import Milf from './components/Home/Resources/Categories/Milf';
 import Teen from './components/Home/Resources/Categories/Teen';
+import Asian from './components/Home/Resources/Categories/Asian';
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
         <Route path="/category/hd-videos" element={<HdVideos />} />
         <Route path="/category/milf" element={<Milf/>}/>
         <Route path="/category/teen" element={<Teen/>}/>
+        <Route path="/category/asian" element={<Asian/>}/>
+
       </Routes>
       <Footer />
     </Router>
