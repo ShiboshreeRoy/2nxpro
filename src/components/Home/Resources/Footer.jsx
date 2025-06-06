@@ -18,7 +18,7 @@ export default function Footer() {
             2NX<span className="text-red-500">Pro</span>
           </h2>
           <p className="text-sm">
-            XNXPro is your ultimate destination for HD, trending, and exclusive premium content. Stream with speed, style, and satisfaction.
+            2NXPro is your ultimate destination for HD, trending, and exclusive premium content. Stream with speed, style, and satisfaction.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
             <li><a href="/Legal/privacy" className="hover:text-white">Privacy Policy</a></li>
             <li><a href="/Legal/terms" className="hover:text-white">Terms of Service</a></li>
             <li><a href="/Legal/dmca" className="hover:text-white">DMCA</a></li>
-            <li><a href="/support" className="hover:text-white">Support</a></li>
+            <li><a href="/Legal/support" className="hover:text-white">Support</a></li>
           </ul>
         </div>
 

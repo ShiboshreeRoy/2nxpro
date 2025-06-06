@@ -21,6 +21,7 @@ import Hardcore from './components/Home/Resources/Categories/Hardcore';
 import PrivacyPolicy from './components/Legal/PrivacyPolicy';
 import Terms from './components/Legal/Terms';
 import Dmca from './components/Legal/Dmca';
+import Support from './components/Legal/Support';
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
         <Route path="/Legal/privacy" element={<PrivacyPolicy/>}/>
         <Route path="/Legal/terms" element={<Terms/>}/>
         <Route path="/Legal/dmca" element={<Dmca/>}/>
+        <Route path="/Legal/support" element={<Support/>}/>
 
 
         <Route path="*" element={<NotFound />} />
