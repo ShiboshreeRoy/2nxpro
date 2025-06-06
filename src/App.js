@@ -18,6 +18,8 @@ import Premium from './components/Home/Resources/Categories/Premium';
 import Threesome from './components/Home/Resources/Categories/Threesome';
 import Lesbian from './components/Home/Resources/Categories/Lesbian';
 import Hardcore from './components/Home/Resources/Categories/Hardcore';
+import PrivacyPolicy from './components/Legal/PrivacyPolicy';
+import Terms from './components/Legal/Terms';
 
 export default function App() {
   return (
@@ -38,7 +40,10 @@ export default function App() {
         <Route path="/category/blowjob" element={<BlowJob/>}/>
         <Route path="/category/threesome" element={<Threesome/>}/>
         <Route path="/category/lesbian" element={<Lesbian/>}/>
-         <Route path="/category/hardcore" element={<Hardcore/>}/>
+        <Route path="/category/hardcore" element={<Hardcore/>}/>
+        <Route path="/Legal/privacy" element={<PrivacyPolicy/>}/>
+        <Route path="/Legal/terms" element={<Terms/>}/>
+
 
         <Route path="*" element={<NotFound />} />
       </Routes>
