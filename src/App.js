@@ -15,6 +15,7 @@ import BigTits from './components/Home/Resources/Categories/Big-Tits';
 import Ebony from './components/Home/Resources/Categories/Ebony';
 import BlowJob from './components/Home/Resources/Categories/BlowJob';
 import Premium from './components/Home/Resources/Categories/Premium';
+import Threesome from './components/Home/Resources/Categories/Threesome';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/trending" element={<Tranding />} />
+        <Route path="/premium" element={<Premium/>}/>
         <Route path="/category/amateur" element={<AmateurVideoPage />} />
         <Route path="/category/hd-videos" element={<HdVideos />} />
         <Route path="/category/milf" element={<Milf />} />
@@ -32,7 +34,7 @@ export default function App() {
         <Route path="/category/big-tits" element={<BigTits/>}/>
         <Route path="/category/ebony" element={<Ebony/>}/>
         <Route path="/category/blowjob" element={<BlowJob/>}/>
-        <Route path="/premium" element={<Premium/>}/>
+        <Route path="/category/threesome" element={<Threesome/>}/>
 
         <Route path="*" element={<NotFound />} />
       </Routes>
