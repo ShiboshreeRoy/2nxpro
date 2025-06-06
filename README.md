@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# 2nx – Premium Video Content Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2nx is a professional, high-performance React-based web platform that delivers categorized, HD-quality video content with a sleek UI/UX. Built with scalability and user privacy in mind, it features rich category browsing, advanced GUI components, and legal compliance pages such as DMCA, Privacy Policy, and Terms of Service.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Demo
+> _Coming soon or hosted link_
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `npm test`
+src/
+├── components/
+│   ├── Home/
+│   ├── Errors/
+│   └── Resources/
+│       ├── NavBar.jsx
+│       ├── Footer.jsx
+│       ├── Categories/
+│       └── Pages/
+│           ├── Premium.jsx
+│           ├── Dmca.jsx
+│           ├── Terms.jsx
+│           ├── PrivacyPolicy.jsx
+│           └── Support.jsx
+├── App.jsx
+└── index.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+````
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ✅ **Modern & Responsive UI** (Tailwind CSS + React)
+- 📂 **Video Categories**: Teen, Milf, HD, Ebony, Asian, Blowjob, etc.
+- 🔒 **Legal Pages**: DMCA, Privacy Policy, Terms of Service
+- 💬 **Support Center**: Live chat, email, and phone support options
+- 💎 **Premium Section**: Highlighted UI for paid content
+- 🔄 **404 Page**: Custom NotFound fallback
+- 📱 **Fully responsive** on mobile, tablet, and desktop
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/shiboshreeroy/2nxpro.git
+cd 2nxpro
+````
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### 3. Run the development server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> The app will be available at `http://localhost:3000`
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧱 Built With
 
-### Analyzing the Bundle Size
+* [React.js](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [React Router](https://reactrouter.com/)
+* [Lucide Icons](https://lucide.dev/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📄 Legal & Compliance
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project includes required legal content and is intended for platforms that prioritize user protection:
 
-### Advanced Configuration
+* [DMCA Page](./src/components/Resources/Pages/Dmca.jsx)
+* [Privacy Policy](./src/components/Resources/Pages/PrivacyPolicy.jsx)
+* [Terms of Service](./src/components/Resources/Pages/Terms.jsx)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### `npm run build` fails to minify
+> Note: Adult-themed or premium sites should always follow local regulations and proper user consent systems.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📧 Contact
+
+For inquiries or support, email: [support@2nx.com](mailto:support@2nx.com)
+
+---
+
+## 📜 License
+
+MIT License – [LICENSE](./LICENSE)
+
