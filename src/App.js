@@ -13,6 +13,7 @@ import Asian from './components/Home/Resources/Categories/Asian';
 import AnalVideo from './components/Home/Resources/Categories/Anal-Video';
 import BigTits from './components/Home/Resources/Categories/Big-Tits';
 import Ebony from './components/Home/Resources/Categories/Ebony';
+import BlowJob from './components/Home/Resources/Categories/BlowJob';
 
 export default function App() {
   return (
@@ -29,6 +30,8 @@ export default function App() {
         <Route path="/category/anal-videos" element={<AnalVideo />} />
         <Route path="/category/big-tits" element={<BigTits/>}/>
         <Route path="/category/ebony" element={<Ebony/>}/>
+        <Route path="/category/blowjob" element={<BlowJob/>}/>
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
