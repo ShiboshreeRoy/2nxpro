@@ -28,7 +28,7 @@ export default function Milf() {
 
   return (
     <section className="bg-black text-white px-6 py-10 min-h-screen">
-      <h2 className="text-3xl font-bold mb-6 text-center">🔥 Featured Premium Videos</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">🔥 Featured Milf Premium Videos</h2>
 
       {/* Video Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
