@@ -11,6 +11,7 @@ import Milf from './components/Home/Resources/Categories/Milf';
 import Teen from './components/Home/Resources/Categories/Teen';
 import Asian from './components/Home/Resources/Categories/Asian';
 import AnalVideo from './components/Home/Resources/Categories/Anal-Video';
+import BigTits from './components/Home/Resources/Categories/Big-Tits';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/category/teen" element={<Teen />} />
         <Route path="/category/asian" element={<Asian />} />
         <Route path="/category/anal-videos" element={<AnalVideo />} />
+        <Route path="/category/big-tits" element={<BigTits/>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
