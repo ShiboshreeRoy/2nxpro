@@ -15,7 +15,7 @@ export default function Footer() {
         {/* Company Info */}
         <div>
           <h2 className="text-white text-xl font-semibold mb-3">
-            XNX<span className="text-red-500">Pro</span>
+            2NX<span className="text-red-500">Pro</span>
           </h2>
           <p className="text-sm">
             XNXPro is your ultimate destination for HD, trending, and exclusive premium content. Stream with speed, style, and satisfaction.
