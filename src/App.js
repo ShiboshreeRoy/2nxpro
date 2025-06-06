@@ -16,6 +16,8 @@ import Ebony from './components/Home/Resources/Categories/Ebony';
 import BlowJob from './components/Home/Resources/Categories/BlowJob';
 import Premium from './components/Home/Resources/Categories/Premium';
 import Threesome from './components/Home/Resources/Categories/Threesome';
+import Lesbian from './components/Home/Resources/Categories/Lesbian';
+import Hardcore from './components/Home/Resources/Categories/Hardcore';
 
 export default function App() {
   return (
@@ -35,6 +37,8 @@ export default function App() {
         <Route path="/category/ebony" element={<Ebony/>}/>
         <Route path="/category/blowjob" element={<BlowJob/>}/>
         <Route path="/category/threesome" element={<Threesome/>}/>
+        <Route path="/category/lesbian" element={<Lesbian/>}/>
+         <Route path="/category/hardcore" element={<Hardcore/>}/>
 
         <Route path="*" element={<NotFound />} />
       </Routes>
