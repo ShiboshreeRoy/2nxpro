@@ -10,21 +10,22 @@ import HdVideos from './components/Home/Resources/Categories/Hd-Videos';
 import Milf from './components/Home/Resources/Categories/Milf';
 import Teen from './components/Home/Resources/Categories/Teen';
 import Asian from './components/Home/Resources/Categories/Asian';
+import AnalVideo from './components/Home/Resources/Categories/Anal-Video';
 
 export default function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path='*' element={<NotFound />} />
         <Route path="/" element={<Home />} />
-         <Route path="/trending" element={<Tranding/>} />
-        <Route path="/category/amateur" element={<AmateurVideoPage/>} />
+        <Route path="/trending" element={<Tranding />} />
+        <Route path="/category/amateur" element={<AmateurVideoPage />} />
         <Route path="/category/hd-videos" element={<HdVideos />} />
-        <Route path="/category/milf" element={<Milf/>}/>
-        <Route path="/category/teen" element={<Teen/>}/>
-        <Route path="/category/asian" element={<Asian/>}/>
-
+        <Route path="/category/milf" element={<Milf />} />
+        <Route path="/category/teen" element={<Teen />} />
+        <Route path="/category/asian" element={<Asian />} />
+        <Route path="/category/anal-videos" element={<AnalVideo />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>

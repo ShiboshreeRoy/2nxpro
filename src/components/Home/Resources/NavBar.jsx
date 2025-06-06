@@ -13,7 +13,7 @@ const categories = [
   { name: "MILF", link: "/category/milf" },
   { name: "Teen", link: "/category/teen" },
   { name: "Asian", link: "/category/asian" },
-  { name: "Anal", link: "/category/anal" },
+  { name: "Anal", link: "/category/anal-videos" },
   { name: "Big Tits", link: "/category/big-tits" },
   { name: "Ebony", link: "/category/ebony" },
   { name: "Blowjob", link: "/category/blowjob" },

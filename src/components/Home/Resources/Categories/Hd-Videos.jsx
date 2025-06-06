@@ -5,7 +5,7 @@ const allVideos = Array.from({ length: 24 }, (_, i) => ({
   id: i + 1,
   title: `Premium Video #${i + 1}`,
   thumbnail: `https://placehold.co/600x340?text=Video+${i + 1}`,
-  videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', // Replace with your actual video links
+  videoUrl: 'https://www.youtube.com/embed/F1uhKUqcWZY?si=U1K0QvxVfDgpQHhB', // Replace with your actual video links
   duration: `${Math.floor(Math.random() * 10) + 1}:${String(Math.floor(Math.random() * 59)).padStart(2, '0')}`,
 }));
 

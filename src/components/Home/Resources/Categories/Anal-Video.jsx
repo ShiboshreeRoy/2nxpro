@@ -5,13 +5,15 @@ const allVideos = Array.from({ length: 24 }, (_, i) => ({
   id: i + 1,
   title: `Premium Video #${i + 1}`,
   thumbnail: `https://placehold.co/600x340?text=Video+${i + 1}`,
-  videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', // Replace with your actual video links
-  duration: `${Math.floor(Math.random() * 10) + 1}:${String(Math.floor(Math.random() * 59)).padStart(2, '0')}`,
+  videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4',
+  duration: `${Math.floor(Math.random() * 10) + 1}:${String(
+    Math.floor(Math.random() * 59)
+  ).padStart(2, '0')}`,
 }));
 
 const VIDEOS_PER_PAGE = 8;
 
-export default function Anal() {
+export default function PremiumVideoGallery() {
   const [currentPage, setCurrentPage] = useState(1);
   const [playingVideoId, setPlayingVideoId] = useState(null);
 
@@ -21,14 +23,16 @@ export default function Anal() {
 
   const handlePageChange = (page) => {
     if (page >= 1 && page <= totalPages) {
-      setPlayingVideoId(null); // Stop all playing videos when page changes
+      setPlayingVideoId(null); // Stop any playing video
       setCurrentPage(page);
     }
   };
 
   return (
     <section className="bg-black text-white px-6 py-10 min-h-screen">
-      <h2 className="text-3xl font-bold mb-6 text-center">🔥 Featured Anal Premium Videos</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">
+        🔥 Featured Premium HD Videos
+      </h2>
 
       {/* Video Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
