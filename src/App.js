@@ -14,6 +14,7 @@ import AnalVideo from './components/Home/Resources/Categories/Anal-Video';
 import BigTits from './components/Home/Resources/Categories/Big-Tits';
 import Ebony from './components/Home/Resources/Categories/Ebony';
 import BlowJob from './components/Home/Resources/Categories/BlowJob';
+import Premium from './components/Home/Resources/Categories/Premium';
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
         <Route path="/category/big-tits" element={<BigTits/>}/>
         <Route path="/category/ebony" element={<Ebony/>}/>
         <Route path="/category/blowjob" element={<BlowJob/>}/>
+        <Route path="/premium" element={<Premium/>}/>
 
         <Route path="*" element={<NotFound />} />
       </Routes>
