@@ -7,6 +7,7 @@ import Navbar from './components/Home/Resources/NavBar';
 import Footer from './components/Home/Resources/Footer';
 import Tranding from './components/Home/Resources/Categories/Tranding';
 import HdVideos from './components/Home/Resources/Categories/Hd-Videos';
+import Milf from './components/Home/Resources/Categories/Milf';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
          <Route path="/trending" element={<Tranding/>} />
         <Route path="/category/amateur" element={<AmateurVideoPage/>} />
         <Route path="/category/hd-videos" element={<HdVideos />} />
+        <Route path="/category/milf" element={<Milf/>}/>
        
       </Routes>
       <Footer />
